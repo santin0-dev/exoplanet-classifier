@@ -18,18 +18,6 @@ When a planet orbits a star, it periodically crosses between us and the star, ca
 ![Confusion Matrix](plots/confusion_matrix.png)
 ![Label Distribution](plots/label_distribution.png)
 
-## Project Structure
-exoplanet-classifier/
-├── configs/        ← dataset column mappings (works with any NASA CSV)
-├── data/           ← place your NASA dataset here
-├── plots/          ← generated visualizations
-├── src/
-│   ├── loader.py       ← data cleaning pipeline
-│   ├── features.py     ← feature scaling
-│   ├── model.py        ← Random Forest classifier
-│   └── visualizer.py   ← plot generation
-└── main.py         ← interactive menu
-
 
 ## Setup
 
